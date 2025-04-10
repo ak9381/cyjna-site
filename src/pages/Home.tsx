@@ -61,7 +61,7 @@ function Home() {
         <img
           src={backgrounds[index]}
           alt="background"
-          className="w-full h-full object-cover blur-md opacity-30 scale-110 transition-all duration-1000"
+          className="w-full h-full object-cover blur-md opacity-40 scale-110 transition-all duration-1000"
         />
       </div>
 
