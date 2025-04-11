@@ -114,7 +114,6 @@ function App() {
       {/* Main Content */}
       <main>
         <Routes>
-
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/foundation" element={<Foundation />} />
