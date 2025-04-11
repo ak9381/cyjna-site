@@ -8,7 +8,6 @@ import Foundation from './pages/Foundation'
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false)
-
   return (
     <div className="min-h-screen bg-black text-gray-900 font-sans">
       {/* Header */}
@@ -23,7 +22,6 @@ function App() {
             />
             <span className="font-bold text-2xl text-gray-900">CYJNA</span>
           </Link>
-
           {/* Desktop Nav */}
           <nav className="hidden md:block">
             <ul className="flex space-x-6 list-none m-0 p-0">
@@ -49,7 +47,6 @@ function App() {
               </li>
             </ul>
           </nav>
-
           {/* Mobile Menu Button */}
           <button
             className="md:hidden text-gray-700 focus:outline-none"
@@ -65,7 +62,6 @@ function App() {
             </svg>
           </button>
         </div>
-
         {/* Mobile Nav */}
         {menuOpen && (
           <div className="md:hidden bg-white border-t">
@@ -110,7 +106,6 @@ function App() {
           </div>
         )}
       </header>
-
       {/* Main Content */}
       <main>
         <Routes>
